@@ -2,6 +2,7 @@
 
 ## What is a digital image?
 The **digital image** is a finite set of digital values, called pixels. Pixels are the smallest individual element of an image, holding values that represent the brightness of a given color at any specific point. 
+
 ![digital image!](/images/4_digital.png "digital image")
 
 This method only works on **Lossless-compression** images, which means that the files are stored in a compressed format, but that this compression does not result in the data being lost or modified, PNG, TIFF, and BMP as an example, are lossless-compression image file formats.

@@ -1,17 +1,29 @@
-# Least Significant Bit Steganography
-**L**east **S**ignificant **B**it **(LSB)** is a technique in which the last bit of each pixel is modified and replaced with the secret message’s data bit.
+# Hiding inside image
+
+## What is a digital image?
+The **digital image** is a finite set of digital values, called pixels. Pixels are the smallest individual element of an image, holding values that represent the brightness of a given color at any specific point. 
+![digital image!](/images/4_digital.png "digital image")
 
 This method only works on **Lossless-compression** images, which means that the files are stored in a compressed format, but that this compression does not result in the data being lost or modified, PNG, TIFF, and BMP as an example, are lossless-compression image file formats.
 
+## Pixel concept and color models
+Pixels are the smallest individual element of an image
+Each pixel contains three values which are (*Red*, *Green*, *Blue*), these values (range from 0-255), in other words, they are 8-bit values.
+
+![Pixel!](/images/6_pixel.png "Pixel")
+
+For example, a value of 225 is 11100001
 ![Least Significant Bit!](/images/3_lsb-a.png "Least Significant Bit")
+
+
+## Least Significant Bit Steganography
+**L**east **S**ignificant **B**it **(LSB)** is a technique in which the last bit of each pixel is modified and replaced with the secret message’s data bit.
+![significant bit!](/images/7_lsb.jpeg "Least Significant Bit")
 
 ![Least Significant Bit!](/images/3_lsb-b.png "Least Significant Bit")
 
-## How LSB technique works?
-Each pixel contains three values which are *Red*, *Green*, *Blue*, these values range from 0 to 255, in other words, they are 8-bit values. 
-For example, a value of 225 is 11100001
 
-### Example
+### How LSB technique works?
 Let's take an example of how this technique works:
 1. hide the message **"hi"** into a 4x4 image, here are the example image pixel values:
 ```

@@ -14,6 +14,7 @@ Each pixel contains three values which are (*Red*, *Green*, *Blue*), these value
 ![Pixel!](/images/6_pixel.png "Pixel")
 
 For example, a value of 225 is 11100001
+
 ![Least Significant Bit!](/images/3_lsb-a.png "Least Significant Bit")
 
 

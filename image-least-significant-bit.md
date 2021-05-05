@@ -44,3 +44,9 @@ Here is the resulting pixel values:
 (154, 61, 87),(63, 30, 17),(1, 55, 19),(99, 81, 66),
 (219, 77, 91),(69, 39, 50),(18, 200, 33),(25, 54, 190)]
 ```
+
+## Hiding an image inside another
+Change the less significant bits from an image and include the most significant bits from the other image.
+ 
+![image!](/images/7_image.png "two images")
+

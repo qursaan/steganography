@@ -1,7 +1,7 @@
 # Steganography
 
 ## What is Steganography?
-> **Steganography** is the process of hiding a secret message within a larger one in such a way that someone can not know the presence or contents of the hidden message.
+**Steganography** is the process of hiding a secret message within a larger one in such a way that someone can not know the presence or contents of the hidden message.
 The purpose of Steganography is to maintain secret communication between two parties.
 
 ### Steganography vs cryptography
